@@ -1,11 +1,10 @@
-#СЂРѕР·РјС–СЂ РјР°СЃРёРІСѓ
+#розмір масиву
 n = 7
-#Р·Р°РїРѕРІРЅРµРЅРЅСЏ РјР°СЃРёРІСѓ Р·Р° СЂРёСЃСѓРЅРєРѕРј
+#заповнення масиву за рисунком
 arr = [[1*(j > i) if i <= n//2 else 1*(j >= n - i) for j in range(n)] for i in range(n)]
 print("array:")
-#РІРёРІРµРґРµРЅРЅСЏ РјР°СЃРёРІСѓ
-for i in range(n):
-    for j in range(n):
-        print(arr[i][j], end = " ")
-    print()
+#виведення масиву
+for r in range(n):
+    print(arr[r])
+
 
