@@ -1,10 +1,10 @@
 def intersect():
-    #введення множин А і В
+    #РІРІРµРґРµРЅРЅСЏ РјРЅРѕР¶РёРЅ Рђ С– Р’
     A = set(map(int, input("enter A - set of integers: ").split()))
     B = set(map(int, input("enter B - set of integers: ").split()))
-    #знаходження перетину А і В
+    #Р·РЅР°С…РѕРґР¶РµРЅРЅСЏ РїРµСЂРµС‚РёРЅСѓ Рђ С– Р’
     C = A & B
-    #виведення множин
+    #РІРёРІРµРґРµРЅРЅСЏ РјРЅРѕР¶РёРЅ
     print(f"A = {A}")
     print(f"B = {B}")
     print(f"C = A & B = {C}")
