@@ -1,9 +1,9 @@
 def float_to_int():
-    #введення списку з дійсних чисел
+    #РІРІРµРґРµРЅРЅСЏ СЃРїРёСЃРєСѓ Р· РґС–Р№СЃРЅРёС… С‡РёСЃРµР»
     A = list(map(float, input("enter a list of floats: ").split()))
-    #округлення елементів до цілого
+    #РѕРєСЂСѓРіР»РµРЅРЅСЏ РµР»РµРјРµРЅС‚С–РІ РґРѕ С†С–Р»РѕРіРѕ
     B = list(map(round, A))
-    #виведення списків
+    #РІРёРІРµРґРµРЅРЅСЏ СЃРїРёСЃРєС–РІ
     print(f"initial list: {A}")
     print(f"list after rounding the elements to integers: {B}")
 
